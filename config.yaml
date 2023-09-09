@@ -1,0 +1,69 @@
+##########################################
+# Konfiguration allgemein Speicher
+speicher:
+  ip: 192.168.178.27
+
+
+##########################################
+# Konfiguration für logfile
+
+logfile:
+  startDatum: 03.09.2021
+  pfadart: relativ
+  #pfadart: absolut
+  pfadrelativ: ../logfiles
+  pfadabsolut: D:\SENEC\logfiles
+  suffix: txt
+  sortyear: yes
+  sortmonth: yes
+  writemode: w+
+  rewrite: yes
+  cronjob: no
+  yester: no
+  sleep: 1
+  errorcount: 3
+
+##########################################
+# Konfiguration für Datenlogger
+
+excellogger:
+  sections: [
+    "BAT1",
+    #"BAT1OBJ1",
+    #"BMS",
+    #"BMS_PARA",
+    #"BMZ_CURRENT_LIMITS",
+    #"CASC",
+    #"CELL_DEVIATION_ROC",
+    #"CURRENT_IMBALANCE_CONTROL",
+    #"DEBUG",
+    #"DISPLAY",
+    "ENERGY",
+    #"FACTORY",
+    #"FAN_SPEED",
+    #"FAN_TEST",
+    #"FEATURES",
+    #"GRIDCONFIG",
+    #"IPU",
+    #"LOG",
+    #"PM1",
+    #"PM1OBJ1",
+    #"PM1OBJ2",
+    #"PV1",
+    #"PWR_UNIT",
+    #"RTC",
+    #"SELFTEST_RESULTS",
+    #"SENEC_IO_INPUT",
+    #"SENEC_IO_OUTPUT",
+    #"SOCKETS",
+    #"STATISTIC",
+    #"STECA",
+    #"SYS_UPDATE",
+    #"TEMPMEASURE",
+    #"V_BatInterface",
+    #"V_STECA",
+    #"WALLBOX",
+    "WIZARD"]
+
+
+
