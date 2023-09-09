@@ -20,10 +20,18 @@ Mit der Einstellung "pfardart" legt man fest, wo die Logfiles gespeichert werden
 ├── config_api
 ├── logfiles
 ├── config.yaml 
-├── ////////////////////
+/
 ```
 
-Mit der Einstellung **suffix** legen wir die Endung unseres Logfiles fest.
+Mit der Einstellung **Suffix** legen wir die Endung unseres Logfiles fest.
+
+Die Einstellung **SortYear** legt fest, dass die Logfiles nach Jahren sortiert werden. Wenn bei **SortMonth** "yes" angegeben wird, werden die Logfiles zusätzlich nach Monaten sortiert.
+
+Wenn man **Cronjob** auf "yes" setzt, wird das Startdatum übergangen, und es wird nur das Logfile des aktuellen Tages heruntergeladen. Stellt man gleichzeitig **Yester** auf "yes", wird das Logfile vom Vortag heruntergeladen.
+
+Damit kann man beispielsweise einen Cronjob unter Linux einrichten, der jeden Tag um 0:15 Uhr startet und sicherstellt, dass man das gesamte Logfile vom Vortag erhält.
+
+Bei **Sleep** handelt es sich um eine Kompatibilitätseinstellung. Sollte der Webserver des Speichers mal nicht hinterherkommen, führt das zu einem Fehler. Sollten mehr Fehler als unter **ErrorCount** angegeben auftreten, wird für x Sekunden gewartet und der Webserver des Speichers entlastet.
 
 
 
