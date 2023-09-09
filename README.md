@@ -2,6 +2,12 @@
 
 #### community editions
 
+## Python installieren
+
+### Windows
+
+Bei der Installation von Python müsst ihr darauf achten das **PIP** ebenfalls installiert wird.
+
 
 ## Konfiguration anpassen
 
