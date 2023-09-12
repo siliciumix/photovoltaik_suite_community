@@ -12,7 +12,7 @@ Bei der Installation von Python müsst ihr darauf achten das **PIP** ebenfalls i
  **ACHTUNG**
 
 Es müssen unbedingt noch weitere Module installiert werden.
-Dazu in den Ordner gehen in dem der Logfile Downloader gespeichert ist und dann folgenden Begehl eingeben.
+Dazu in den Ordner gehen in dem der Logfile Downloader gespeichert ist und dann folgenden Befehl ausführen.
 
 ```
 pip install -r requirements.txt
