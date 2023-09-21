@@ -11,31 +11,29 @@ Bei der Installation von Python müsst ihr darauf achten das **PIP** ebenfalls i
 
 ### Git Repository herunterladen
 
-Da ich jetzt schon oft mit bekommen habe das die Dateien des Repositorys einzeln heruntergeladen werden hier eine kleine Anleitung. 
-
-Hier seid ihr schon ganz richtig. Oben rechts befindet sich ein grüner Button mit der Beschriftung `<> Code` 
+Da ich jetzt schon oft mitbekommen habe, dass die Dateien des Repositories einzeln heruntergeladen werden, hier eine kleine Anleitung. Oben rechts befindet sich ein grüner Button mit der Beschriftung `<> Code` 
 
 <img src="bilder/readme_001.jpg" alt="Alternativer Text">
 
-Dann bekommt man ein kleines Fenster in dem ganz unten die Möglichkeit angezeigt wird das ganze per ZIP herunterzuladen.
+Dann bekommt man ein kleines Fenster, in dem ganz unten die Möglichkeit angezeigt wird, das Ganze per ZIP herunterzuladen.
 
 <img src="bilder/readme_002.jpg" width="50%" alt="Alternativer Text">
 
-Diese wird in eurem Download-Ordner gespeichert. Als nächstes wird die ZIP ausgepackt und man erhält folgende Orderstruktur.
+Diese wird in eurem Download-Ordner gespeichert. Als nächstes wird die ZIP-Datei ausgepackt, und man erhält folgende Ordnerstruktur.
 
 <img src="bilder/readme_003.jpg" width="40%" alt="Alternativer Text">
 
-Jetzt kann man den inneren Ordner (photovoltaik_suite_community-main) umbenennen und an eine andere Stelle des Dateisystems schieben. Danach ruft man die PowerShell auf und geht in den Ordner (photovoltaik_suite_community-main oder wie auch immer man ihn umbenannt hat)
+Hier sind die korrigierten Sätze:
 
-Dann passt man die `config.yaml` an. Zu beachten ist das man sich genau an das Schema hält.
-Keine Zeichen hinzudichten oder einfach mal das Datumsformat ändern. 
+Jetzt kann man den inneren Ordner (photovoltaik_suite_community-main) umbenennen und an eine andere Stelle des Dateisystems verschieben. Danach ruft man die PowerShell auf und wechselt in den Ordner (photovoltaik_suite_community-main oder wie auch immer man ihn umbenannt hat).
+
+Dann passt man die `config.yaml` an. Dabei ist zu beachten, dass man sich genau an das Schema hält. Es sollten keine Zeichen hinzugefügt werden oder einfach das Datumsformat geändert werden.
 
 
 ---
  **ACHTUNG**
 
-Unbedingt den folgenden Befehl ausführen. Damit werden alle benötigten Module installiert.
-Nicht auf die Idee kommen ich schaue einfach mal welche Module noch so ähnlich sind. Das funktioniert definitiv nicht
+Unbedingt den folgenden Befehl ausführen, um alle benötigten Module zu installieren. Auf die Idee zu kommen, einfach nach ähnlichen Modulen zu suchen, ist keine gute Option. Das funktioniert definitiv nicht.
 
 ```
 pip install -r requirements.txt
@@ -57,12 +55,11 @@ python logfile_download.py
 python3 logfile_download.py
 ```
 
-#### MAC
+#### Angebissener Apfel
 
-Mit Fallobst was Strom benötigt habe ich keine Erfahrung und kann daher nichts dazu sagen.
+Mit Fallobst, das Strom benötigt, habe ich keine Erfahrung und kann daher nichts dazu sagen.
 
-
-NEIN wir rufen es nicht mit `py logfile_download.py` auf das ist pfui und kann zu Fehlern fürhen. 
+NEIN, wir rufen es nicht mit 'py logfile_download.py' auf, das ist ungünstig und kann zu Fehlern führen.
 
 Es dürfen auf gar keinen Fall Dateien verschoben oder umbenannt werden.
 
