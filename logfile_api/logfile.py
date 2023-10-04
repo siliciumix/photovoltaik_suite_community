@@ -14,7 +14,7 @@ import requests
 def url_logfile(datum):
     conf = config.read(os.getenv("CONFIG_FILE"))
     ip = conf["speicher"]["ip"]
-    url = "https://" + ip + "/Log/" + (datum.strftime("%Y/%m/%d")) + ".log"
+    url = "https://" + ip + "//Log/" + (datum.strftime("%Y/%m/%d")) + ".log"
     return url
 
 
